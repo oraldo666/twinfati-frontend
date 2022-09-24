@@ -1,0 +1,59 @@
+.all-messages-container {
+  width: 100%;
+  position: relative;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.only-messages-container {
+  height: 600px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.only-messages {
+}
+
+.all-messages-user-messages {
+  color: red;
+  /* position: relative;
+  left: 80%; */
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.all-messages-friend-messages {
+  color: blue;
+  display: flex;
+  justify-content: felx-start;
+  margin-left: 20px;
+}
+
+.messages-user-messages {
+  padding: 5px 20px 5px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.messages-friend-messages {
+  padding: 5px 20px 5px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.no-messages-container {
+  text-align: center;
+}
+
+.friend-full-name-container {
+}
+
+.friend-full-name {
+  color: Black;
+  margin-left: 20px;
+}

@@ -1,0 +1,44 @@
+.about-profile-modal-container {
+  position: fixed;
+  height: 600px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  font-size: 20px;
+  background-color: #f7f7f7;
+  z-index: +6;
+}
+
+.about-profile-modal-info {
+  margin: 60px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-profile-photo {
+  max-height: 280px;
+  max-width: 100%;
+}
+
+.modal-exit {
+  font-size: 35px;
+  position: absolute;
+  right: 0;
+  margin: 10px;
+}
+
+.modal-exit:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .about-profile-modal-container {
+    width: 80%;
+  }
+}

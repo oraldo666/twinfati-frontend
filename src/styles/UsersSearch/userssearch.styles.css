@@ -1,0 +1,53 @@
+.users-searched-container {
+  position: absolute;
+  top: 60px;
+  left: 10%;
+  width: 400px;
+  min-height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  z-index: +5;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 0px 10px;
+}
+
+.user-search {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0 10px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 10px 0 10px 0;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.user-search-credentials {
+  display: flex;
+  gap: 10px;
+}
+
+.user-search-img-container {
+  height: 60px;
+  width: 60px;
+}
+
+.user-search-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .users-searched-container {
+    top: 120px;
+    width: 300px;
+    left: 5%;
+  }
+}

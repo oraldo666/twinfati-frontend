@@ -1,0 +1,21 @@
+.home-page-container {
+  overflow: hidden;
+}
+
+.home-page-posts-container {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .home-page-posts-container {
+    width: 95%;
+  }
+}
+
+.homepage-create-post-container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}

@@ -1,0 +1,161 @@
+.navbar-container {
+  height: 60px;
+  width: 100%;
+  border: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.navbar-socialmedia-name-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.navbar-socialmedia-short-name-container {
+  display: none;
+}
+
+.navbar-socialmedia-name {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.navbar-searchbar-container {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-searchbar {
+  width: 100%;
+  height: 45px;
+  border-radius: 20px;
+  border: 0px;
+  box-shadow: 0.5px 1px 5px 1px black;
+  font-size: 25px;
+  padding: 0px 10px 0px 10px;
+}
+
+.navbar-icons-container {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  font-size: 40px;
+}
+
+.navbar-icons {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-menu-icon-container {
+  text-decoration: none;
+  font-size: 40px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-45%);
+  background-color: transparent;
+  border: 0;
+}
+
+.navbar-menu-icon-container:hover {
+  cursor: pointer;
+}
+
+.navbar-menu-icon-profile {
+  color: black;
+  margin-right: 20px;
+}
+
+/* .navbar-searchbar-profile-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  display: flex;
+}
+
+.navbar-searchbar-home-container {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  display: flex;
+} */
+
+@media screen and (max-width: 1600px) {
+  .navbar-searchbar-container {
+    left: 30%;
+  }
+  .navbar-icons-container {
+    left: 75%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-searchbar-container {
+    left: 40%;
+  }
+
+  .navbar-searchbar {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-searchbar-container {
+    left: 45%;
+  }
+  .navbar-searchbar {
+    width: 20%;
+  }
+
+  .navbar-icons-container {
+    left: 55%;
+    font-size: 30px;
+    z-index: +5;
+  }
+  .navbar-icons {
+    margin-right: 6px;
+  }
+
+  .navbar-socialmedia-name-container {
+    display: none;
+  }
+  .navbar-socialmedia-short-name-container {
+    display: inline;
+  }
+
+  .navbar-menu-icon-container {
+    font-size: 40px;
+  }
+  .navbar-menu-icon-profile {
+    margin-right: 0px;
+  }
+
+  .navbar-searchbar:focus {
+    position: relative;
+    top: 65px;
+    right: -20px;
+    width: 340px;
+    margin-bottom: 20px;
+    height: 35px;
+    font-size: 20px;
+  }
+  .navbar-searchbar-container {
+    z-index: +1;
+  }
+}

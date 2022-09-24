@@ -1,0 +1,56 @@
+.is-friend-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 125px;
+  gap: 5px;
+  margin-left: 20px;
+  font-size: 1.5em;
+  height: 40px;
+  width: 120%;
+}
+.is-friend-container:hover {
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  cursor: pointer;
+}
+
+.add-friend-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 125px;
+  margin-left: 20px;
+  font-size: 1.5em;
+  gap: 10px;
+  height: 40px;
+  width: 120%;
+}
+
+.add-friend-container:hover {
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .is-friend-container {
+    top: 45px;
+  }
+  .add-friend-container {
+    display: inline;
+    position: relative;
+    top: 45px;
+    margin-left: 20px;
+    font-size: 1.5em;
+    gap: 10px;
+  }
+  .add-friend-text {
+    display: none;
+  }
+}

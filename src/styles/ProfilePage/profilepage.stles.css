@@ -1,0 +1,17 @@
+.profile-page-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.profile-page-user-post-container {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .profile-page-user-post-container {
+    width: 95%;
+  }
+}
